@@ -32,5 +32,6 @@ jobs:
         image: pulis1428/demo-app
         tags: v1, latest
         registry: docker.io
+        dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
